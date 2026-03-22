@@ -3,9 +3,19 @@
   "name": "Claude Arabic RTL Switcher",
   "description": "Switch RTL rendering for Arabic Claude responses.",
   "version": "1.0.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
   "action": {
     "default_title": "Claude Arabic RTL",
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
   },
   "permissions": ["storage"],
   "host_permissions": ["https://claude.ai/*"],
