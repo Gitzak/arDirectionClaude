@@ -1,0 +1,28 @@
+.claude-rtl-response {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: plaintext !important;
+}
+
+.claude-rtl-response :is(div, span, p, li, h1, h2, h3, h4, h5, h6, blockquote, ul, ol, strong, em) {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: plaintext !important;
+}
+
+.claude-rtl-response :is(pre, code, kbd, samp) {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: plaintext !important;
+}
+
+.claude-rtl-response :is(pre, pre *, code, code *, kbd, kbd *, samp, samp *) {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: plaintext !important;
+}
+
+.claude-rtl-response :is(.overflow-x-auto, .code-block__code, [class*="code-block"]) {
+  direction: rtl !important;
+  text-align: right !important;
+}
